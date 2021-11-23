@@ -6,7 +6,7 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 
-import DiagramIcon from "../../../../../public/images/diagram.svg";
+import DiagramIcon from "./DiagramIcon";
 
 export default function Diagram() {
   const isWideVersion = useBreakpointValue({
