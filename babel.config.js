@@ -1,4 +1,5 @@
-module.exports = {
-  presets: ["next/babel"],
-  plugins: ["inline-react-svg"],
-};
+
+   
+// next.config.js
+const withImages = require('next-images')
+module.exports = withImages()
